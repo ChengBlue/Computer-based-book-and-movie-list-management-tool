@@ -1,0 +1,57 @@
+/* 自定义样式 - 书单/影单管理工具 */
+
+/* 星星评分交互 */
+.star-rating .star {
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.star-rating .star:hover,
+.star-rating .star.active {
+    color: #fbbf24;
+}
+
+/* 卡片悬停效果 */
+.card-hover:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* 状态分组锚点 */
+.status-group {
+    scroll-margin-top: 20px;
+}
+
+/* 标签快速按钮 */
+.tag-quick-btn {
+    cursor: pointer;
+}
+
+/* 标签胶囊可点击 */
+.tag-pill {
+    cursor: pointer;
+}
+
+/* 标签筛选器 */
+.tag-filter {
+    cursor: pointer;
+}
+
+/* 空状态和列表容器过渡 */
+#emptyState, #listContainer {
+    transition: opacity 0.3s ease;
+}
+
+/* 表单输入框过渡 */
+input, select, textarea {
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* 按钮过渡效果 */
+button {
+    transition: all 0.2s ease;
+}
+
+/* 卡片过渡效果 */
+.bg-white.rounded-xl.border {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
